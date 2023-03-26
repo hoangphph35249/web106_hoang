@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai tap buoi sang</title>
+    <style>
+        .bao {
+            display: grid;
+        }
+
+        .container {}
+
+        header {
+            border: 1px solid black;
+            height: 130px;
+            display: grid;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .logo img {
+            width: 100px;
+            padding: 10px;
+            grid-column: 1/3;
+        }
+
+        .search {
+            grid-column: 2/4;
+        }
+
+        .nguoiuse {
+            grid-column: 4/5;
+            font-size: 90%;
+        }
+
+        .nguoiuse img {
+            border-radius: 100%;
+            height: 20px;
+        }
+
+        .noidung {
+            border: 1px solid black;
+            min-height: 300px;
+            display: grid;
+        }
+
+        .tintuc {
+            text-align: justify;
+            grid-column: 1/3;
+            border: 1px solid black;
+            float: left;
+
+        }
+
+        .tieude {
+            grid-column: 3/5;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .video {
+            width: 90%;
+            min-height: 140px;
+            border: 1px solid black;
+        }
+
+        .item {
+            text-align: left;
+            gap: 20px;
+            padding: 10px;
+        }
+
+        @media screen and (max-width: 900px) {
+            .search input {
+                width: 80%;
+            }
+
+            .tieude {
+                grid-column: 3/5;
+                display: grid;
+                grid-template-columns: auto auto;
+                gap: 10px;
+                padding: 10px;
+            }
+
+            .logo img {
+                width: 100px;
+                height: auto;
+            }
+
+            .tintuc {
+                display: none;
+            }
+
+            .nguoiuse {
+                display: none;
+            }
+
+            .video {
+                min-height: 150px;
+                border: 1px solid black;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bao">
+        <div class="container">
+            <header>
+                <div class="logo"> <img src="img/logo_youtube.jpg" alt="ảnh logo"></div>
+                <div class="search">
+                    <form action="#" method="get">
+                        <input type="text" size="50" placeholder="Search" size="">
+                    </form>
+                </div>
+                <div class="nguoiuse"> Tên người dùng <img
+                        src="img/png-clipart-user-computer-icons-avatar-miscellaneous-heroes.png" alt=""></div>
+            </header>
+            <div class="noidung">
+                <div class="tintuctrai">
+                    <div class="item1">
+                                Section 1
+                            <br>                           
+                            Section 2
+                            <br>
+                            Section 3
+                            <br>
+                            Section 4
+                            <br>
+                            Section 5
+                            <br>
+                            Section 6
+                            <br>
+                            Section 7
+                            <br>
+                            Section 8
+                            <br>
+                            Section 9
+                            <br>
+                            Section 10
+                            <br>
+                            Section 11
+                            <br>
+                            Section 12
+                            <br>
+                            Section 13
+                            <br>
+                            Section 14
+                            <br>
+                            Section 15
+                            <br>
+                        </tr>
+                    </div>
+                </div>
+                <div class="tieude">
+                    <div class="item">
+                        <div class="video"></div>
+                        <b>Tiêu đề video</b> <br> <br>
+                        lorem ipsum dolor sit amel <br>
+                        consectetur addipdicing elit sed
+                    </div>
+
+
+                    <div class="item">
+                        <div class="video"></div>
+                        <b>Tiêu đề video</b> <br> <br>
+                        lorem ipsum dolor sit amel <br>
+                        consectetur addipdicing elit sed
+                    </div>
+
+                    <div class="item">
+                        <div class="video"></div>
+                        <b>Tiêu đề video</b> <br> <br>
+                        lorem ipsum dolor sit amel <br>
+                        consectetur addipdicing elit sed
+                    </div>
+
+                    <div class="item">
+                        <div class="video"></div>
+                        <b>Tiêu đề video</b> <br> <br>
+                        lorem ipsum dolor sit amel <br>
+                        consectetur addipdicing elit sed
+                    </div>
+
+                    <div class="item">
+                        <div class="video"></div>
+                        <b>Tiêu đề video</b> <br> <br>
+                        lorem ipsum dolor sit amel <br>
+                        consectetur addipdicing elit sed
+                    </div>
+
+                    <div class="item">
+                        <div class="video"></div>
+                        <b>Tiêu đề video</b> <br> <br>
+                        lorem ipsum dolor sit amel <br>
+                        consectetur addipdicing elit sed
+                    </div>
+
+                    <div class="item">
+                        <div class="video"></div>
+                        <b>Tiêu đề video</b> <br> <br>
+                        lorem ipsum dolor sit amel <br>
+                        consectetur addipdicing elit sed
+                    </div>
+
+                    <div class="item">
+                        <div class="video"></div>
+                        <b>Tiêu đề video</b> <br> <br>lorem ipsum dolor sit amel <br>
+                        consectetur addipdicing elit sed
+                    </div>
+
+                    <div class="item">
+                        <div class="video"></div>
+                        <b>Tiêu đề video</b> <br> <br>
+                        lorem ipsum dolor sit amel <br>
+                        consectetur addipdicing elit sed
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
